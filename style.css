@@ -1,0 +1,144 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  /* Font styles for headers */
+  h1,
+  h2 {
+    font-weight: 700; /* Poppins Bold */
+  }
+
+  /* Font styles for other text */
+  p,
+  .card-text,
+  .nav-link {
+    font-weight: 300; /* Poppins Light (300) */
+  }
+  .nav-item {
+    padding: 1.5px;
+  }
+  .navbar-brand {
+    font-size: 1.5rem; /* Adjust font size for alignment */
+    margin: 0; /* Remove any default margins */
+  }
+  .navbar {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-brand {
+    font-weight: 700; /* Increased font weight */
+    font-size: 1.5rem;
+    color: #6f42c1 !important;
+  }
+
+  .nav-link {
+    font-weight: 550; /* Increased font boldness for nav links */
+    color: #333 !important;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: #6f42c1 !important;
+  }
+
+  /* Underline hover effect for nav-links */
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: #6f42c1;
+    transition: width 0.3s ease-in-out;
+  }
+
+  .nav-link:hover::after {
+    width: 100%;
+  }
+
+  /* Hero Section (Background removed) */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 5%; /* Add spacing on both sides */
+    background-color: #f8f9fa;
+  }
+
+  /* Left Text */
+  .hero-text h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #6f42c1; /* Purple Color */
+    margin: 0;
+  }
+
+  /* Right Image Section */
+  .hero-image {
+    position: relative;
+    width: 350px; /* Adjust width of the container */
+    height: 350px;
+  }
+
+  .hero-image img {
+    position: absolute;
+    padding: 50px;
+    padding-right: 40px;
+    width: 100%;
+    right: 10px;
+  }
+
+  /* Buttons */
+  .btn-custom {
+    background-color: #6f42c1;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+  }
+  .btn-custom:hover {
+    background-color: #5a379e;
+    transform: scale(1.05);
+    color: #fff;
+  }
+
+  /* Sections */
+  section {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+
+  /* Gallery Images */
+  .gallery img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+
+  /* Footer */
+  .footer {
+    background-color: #6f42c1;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }

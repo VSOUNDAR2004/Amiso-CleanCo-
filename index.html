@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cleaning Services</title>
+    <!-- Google Fonts (Poppins Font) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link to Custom CSS -->
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">CleanCo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <!-- Left Side: Text -->
+      <div class="hero-text">
+        <h1>Welcome to CleanCo</h1>
+        <p>Your trusted cleaning partner for homes and businesses.</p>
+        <a href="#contact" class="btn btn-custom">Get a Free Quote</a>
+      </div>
+
+      <!-- Right Side: Image with Circle Background -->
+      <div class="hero-image">
+        <img src="./home-img.png" alt="Cleaning Service Lady" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light">
+      <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <p class="text-center">
+          We are a professional cleaning service committed to making your space
+          spotless and stress-free. With years of experience, our trained
+          professionals provide reliable, efficient, and eco-friendly cleaning
+          solutions.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <i
+              class="bi bi-house-fill"
+              style="font-size: 2rem; color: #6f42c1"
+            ></i>
+            <h5>Residential Cleaning</h5>
+            <p>Keep your home spotless with our premium cleaning services.</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <i
+              class="bi bi-building"
+              style="font-size: 2rem; color: #6f42c1"
+            ></i>
+            <h5>Commercial Cleaning</h5>
+            <p>Professional cleaning tailored for offices and businesses.</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <i
+              class="bi bi-flower1"
+              style="font-size: 2rem; color: #6f42c1"
+            ></i>
+            <h5>Deep Cleaning</h5>
+            <p>
+              In-depth cleaning solutions for a fresh and sanitized environment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="bg-light">
+      <div class="container">
+        <h2 class="section-title">Pricing Plans</h2>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Basic Plan</h5>
+                <p class="card-text">$50 per session</p>
+                <ul class="list-unstyled">
+                  <li>General cleaning</li>
+                  <li>Eco-friendly products</li>
+                  <li>Flexible scheduling</li>
+                </ul>
+                <a href="#" class="btn btn-custom">Choose Plan</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Standard Plan</h5>
+                <p class="card-text">$100 per session</p>
+                <ul class="list-unstyled">
+                  <li>Deep cleaning</li>
+                  <li>All basic features</li>
+                  <li>24/7 support</li>
+                </ul>
+                <a href="#" class="btn btn-custom">Choose Plan</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Premium Plan</h5>
+                <p class="card-text">$200 per session</p>
+                <ul class="list-unstyled">
+                  <li>Customized cleaning</li>
+                  <li>Priority scheduling</li>
+                  <li>Dedicated team</li>
+                </ul>
+                <a href="#" class="btn btn-custom">Choose Plan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="bg-light">
+      <div class="container">
+        <h2 class="section-title">Our Work</h2>
+        <div class="row gallery">
+          <div class="col-md-4 mb-4">
+            <img
+              src="furniture.png"
+              alt="Residential Cleaning"
+            />
+          </div>
+          <div class="col-md-4 mb-4">
+            <img
+              src="bathroom.jpg"
+              alt="Office Cleaning"
+            />
+          </div>
+          <div class="col-md-4 mb-4">
+            <img
+              src="house.jpg"
+              alt="Deep Cleaning"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+      <div class="container">
+        <h2 class="section-title">Latest Blogs</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://images.pexels.com/photos/4239011/pexels-photo-4239011.jpeg"
+                class="card-img-top"
+                alt="Blog Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">5 Tips for a Cleaner Home</h5>
+                <p class="card-text">
+                  Discover simple and effective cleaning tips to keep your home
+                  spotless.
+                </p>
+                <a href="#" class="btn btn-custom">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://images.pexels.com/photos/5691535/pexels-photo-5691535.jpeg"
+                class="card-img-top"
+                alt="Blog Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Eco-Friendly Cleaning</h5>
+                <p class="card-text">
+                  Learn about sustainable and green cleaning methods.
+                </p>
+                <a href="#" class="btn btn-custom">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://images.pexels.com/photos/4393780/pexels-photo-4393780.jpeg"
+                class="card-img-top"
+                alt="Blog Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Benefits of Deep Cleaning</h5>
+                <p class="card-text">
+                  Understand why deep cleaning is essential for healthy living.
+                </p>
+                <a href="#" class="btn btn-custom">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="text-center">
+          Have questions or need a quote? Get in touch with us, and we'll be
+          happy to assist you!
+        </p>
+        <form>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" required />
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" required />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-custom">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2024 CleanCo | All Rights Reserved</p>
+    </footer>
+
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
